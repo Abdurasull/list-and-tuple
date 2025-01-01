@@ -8,4 +8,8 @@ list_1 = []
 for element in range(0, 8, 2):
     if element % 2 == 0:
         list_1.append(tuple_1[element])
-print(list_1) 
+# hosil bolgan yangi ruyxatimizni tuple ga o`zgartiramiz
+tuple_1 = tuple(list_1)
+
+# natijani ekranga chop etamiz
+print(tuple_1)
